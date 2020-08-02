@@ -1,12 +1,13 @@
 import moment from 'moment';
 
-// La definición
+// La definición de mi servicio: Es expuesto para que pueda ser utilizado
 export const definition = {
     hook: 'patient-view',
-    name: 'CDS Service Starter Patient View',
+    name: 'CDS para Patient-View',
     description: 'Este es un servicio de ejemplo que se dispara cuando vemos un paciente',
     id: 'idDelHookPatientView',
     prefetch: {
+        // Contexto
         patient: 'Patient/{{context.patientId}}',
     },
 };

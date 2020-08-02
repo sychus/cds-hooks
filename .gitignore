@@ -21,7 +21,7 @@ pids
 *.pid.lock
 
 ### Javascript ###
-# js
+# js files
 *.js
 *.js.map
 

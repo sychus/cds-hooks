@@ -36,17 +36,17 @@ export class CDSServer {
         return this;
     }
 
-
+    // POST: Service endpoint
     registerService({ definition, handler }) {
         this.services.push(definition);
         this.app.post(`/cds-services/${definition.id}`, handler);
         return this;
     }
 
-
+    // GET: Discovery endpoint
     listen({ port, discoveryEndpoint = '/cds-services' }, callback) {
         this.app.get(discoveryEndpoint, (req, res) => res.json({ services: this.services }));
-        this.app.get('/', (req, res) => res.send('Sistema de CDS andanding...'));
+        this.app.get('/', (req, res) => res.send('Sistema de CDS funcionando...'));
         this.app.listen(port, callback);
 
         return this;
