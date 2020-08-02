@@ -1,0 +1,33 @@
+{
+  "name": "cds-hooks",
+  "version": "1.0.0",
+  "description": "Clinical Decision Support",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sychus/cds-hooks.git"
+  },
+  "author": "Hugo H. Fernández",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sychus/cds-hooks/issues"
+  },
+  "homepage": "https://github.com/sychus/cds-hooks#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.7",
+    "@types/express": "^4.17.7",
+    "tslint": "^6.1.3",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "prettier": "^2.0.5"
+  }
+}
