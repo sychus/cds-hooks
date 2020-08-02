@@ -39,11 +39,11 @@ export const handler = (req, res) => {
             },
             {
                 summary: `Summary: ${text}`,
-                detail: 'Evolución del crecimiento del paciente',
+                detail: 'Resultados del electrocardiograma',
                 indicator: 'critical',
                 links: [{
-                    label: 'Dashboard de crecimiento',
-                    url: 'https://prairiebyte.secure.omnis.com/fhir/smart/app1oauth/index.php?code=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjb250ZXh0Ijp7Im5lZWRfcGF0aWVudF9iYW5uZXIiOnRydWUsInNtYXJ0X3N0eWxlX3VybCI6Imh0dHBzOi8vbGF1bmNoLnNtYXJ0aGVhbHRoaXQub3JnL3NtYXJ0LXN0eWxlLmpzb24iLCJwYXRpZW50Ijoic21hcnQtNzc3NzcwMyJ9LCJjbGllbnRfaWQiOiIyY2IwN2JlMC1kOGM3LTQxMWEtOGExZi03YjA4MTBmY2NjNDciLCJzY29wZSI6ImxhdW5jaC9wYXRpZW50IiwiaWF0IjoxNTk2MzMzNzg1LCJleHAiOjE1OTYzMzQwODV9.G4ignqTXZq7n-t_wdcvxV2eJxR0OaXsaKDGvoibBlCE&state=843591915',
+                    label: 'Electro e informe de resultados',
+                    url: 'https://chestpain-sandbox.regenstrief.org/iuh/secure/jsp?patientId=smart-4444001',
                     type: 'smart'
                 }]
             }
