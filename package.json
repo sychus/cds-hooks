@@ -5,7 +5,7 @@
   "main": "dist/app.js",
   "scripts": {
     "start": "tsc && node dist/app.js",
-    "public": "standard-version && git push --follow-tags origin master && npm publish",
+    "public": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
